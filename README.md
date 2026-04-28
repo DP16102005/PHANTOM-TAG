@@ -362,7 +362,7 @@ The QIM-DCT watermark is designed to survive common piracy attacks:
 
 ## Google Solution Challenge
 
-This project was built for the **Google Solution Challenge** — a 24-hour sprint to solve real-world problems using Google technologies.
+This project was built for the **Google Solution Challenge** — a sprint to solve real-world problems using Google technologies.
 
 **UN SDG Alignment:** SDG 16 — Peace, Justice, and Strong Institutions  
 Protecting intellectual property rights of sports organizations and content creators.
