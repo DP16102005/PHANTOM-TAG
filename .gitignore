@@ -1,0 +1,44 @@
+# === Dependencies ===
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# === Sensitive / Environment ===
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+backend/serviceAccountKey.json
+serviceAccountKey.json
+*firebase-adminsdk*.json
+
+# === Storage (large video/binary files) ===
+storage/originals/
+storage/watermarked/
+storage/suspects/
+storage/dmca_pdfs/
+storage/uploads/
+
+# === Models (large binary) ===
+engine/models/*.joblib
+
+# === Build artifacts ===
+frontend/dist/
+*.egg-info/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs ===
+*.log
+npm-debug.log*

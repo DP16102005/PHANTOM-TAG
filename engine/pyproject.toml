@@ -1,0 +1,25 @@
+[project]
+name = "phantom-tag-engine"
+version = "1.0.0"
+description = "Phantom-Tag: QIM-DCT Forensic Watermarking Engine"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
+    "opencv-python-headless>=4.9.0",
+    "numpy>=1.26.0",
+    "moviepy>=1.0.3",
+    "scikit-learn>=1.4.0",
+    "joblib>=1.4.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+fingerprint = [
+    "torch",
+    "torchvision",
+]
+
+[tool.uv]
+extra-index-url = ["https://download.pytorch.org/whl/cpu"]
