@@ -381,5 +381,5 @@ This project is built for educational and competition purposes. The watermarking
 ---
 
 <p align="center">
-  Built with 🔮 by <strong>Team Phantom-Tag</strong>
+  Built with 🔮 by <strong>Howlers</strong>
 </p>
